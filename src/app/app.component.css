@@ -1,0 +1,21 @@
+#container {
+  min-height: 100%;
+  height: auto !important;
+  position: relative;
+}
+#page {
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
+}
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+div {
+  margin: 3rem;
+}
+
+h3 {
+  margin: 1rem;
+}

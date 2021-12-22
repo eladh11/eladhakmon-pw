@@ -1,0 +1,72 @@
+<h1>Qualifications & Studies:</h1>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  <ng-container matColumnDef="position">
+    <th mat-header-cell *matHeaderCellDef>.</th>
+    <td mat-cell *matCellDef="let element">{{ element.position }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="year">
+    <th mat-header-cell *matHeaderCellDef>Year</th>
+    <td mat-cell *matCellDef="let element">{{ element.year }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="explanation">
+    <th mat-header-cell *matHeaderCellDef>Explanation</th>
+    <td mat-cell *matCellDef="let element">{{ element.explanation }}</td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
+<a href="https://github.com/eladh11" target="_blank">
+  Check My
+  <i class="bi bi-github"></i>
+</a>
+<img src="../../../assets/images/logo4.jpg" alt="Its Me!" />
+
+<h1 className="work-headline">
+  Work Experience<i class="bi bi-person-workspace"></i>
+</h1>
+
+<h4>Barel Alon. Media, Digital and Purchasing Manager. [2020 - currently]</h4>
+<p className="work-p">
+  I took a part in developing the company's website and Problem Solving which
+  brought more logins to the site,<br />
+  Helped locate new potential customers, And promoted the company's sales.<br />
+  Responsible for the company's website and its operation.<br />
+  Dealing with international Suppliers and entities, Negotiation management and
+  closing contracts.<br />
+  Leadership a team of the Company's employees, Teamwork is a big part of the
+  job.
+</p>
+
+<h4>Business Events. Production Companies [2019 - currently]</h4>
+<p className="work-p">
+  Managing production teams, operations system at business events such as:
+  <br />
+  Medical conferences, Prestigious car events, fashion displays and sales events
+  Mercedes,<br />
+  S.Pharm, Education Conference, World Health Conference and more...
+</p>
+<img class="mid" src="../../../assets/images/logo6.jpg" alt="Its Me!" />
+
+<h4>Whiskey Bar & Museum. Sharona TLV [2018 - 2020]</h4>
+<p className="work-p">
+  Recruitment and training of new employees, team management and task
+  operation,<br />
+  management bar events, work arrangements and placements, customer service.
+</p>
+<h4>Temporary Jobs [2016 - 2018]</h4>
+<br />
+<ul class="b">
+  <li>Customer Service Center.</li>
+  <li>Work in a Family Business providing foreign exchange services.</li>
+</ul>
+<img class="mid" src="../../../assets/images/logo5.jpg" alt="Its Me!" />
+
+<h1>Languages<i class="bi bi-translate"></i></h1>
+<ul class="mid-text">
+  <li>Hebrew, Native language.</li>
+  <li>English, Excellent.</li>
+</ul>
