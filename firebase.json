@@ -1,23 +1,6 @@
 {
-  "firebase": "elad-hakmon",
-  "public": "dist",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ],
-  "rewrites": [
-    {
-      "source": "/public/**",
-      "destination": "/public.html"
-    },
-    {
-      "source": "**",
-      "destination": "/index.html"
-    }
-  ],
   "hosting": {
-    "public": "src",
+    "public": "dist/elad-resume",
     "ignore": [
       "firebase.json",
       "**/.*",
