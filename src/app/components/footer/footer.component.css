@@ -61,13 +61,14 @@
 .scroll-to-top {
   position: fixed;
   bottom: 0;
-  right: 0;
+  right: 50px;
+  bottom: 15px;
   cursor: pointer;
   font-size: x-large;
 }
-
-h4 {
+.footer-basic h4 {
   text-align: center;
   text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
 }
