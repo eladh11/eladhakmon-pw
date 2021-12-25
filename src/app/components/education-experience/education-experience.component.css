@@ -1,13 +1,11 @@
-.work-pa {
+p {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 24px;
+  font-size: 18px;
   text-align: justify;
-  font-size: 26px;
   line-height: 35px;
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
-  margin: 35px;
   padding: 15px;
 }
 table {
@@ -17,11 +15,43 @@ table {
 i {
   font-weight: bold;
 }
-a {
+
+.footer-basic ul a {
   font-size: xx-large;
   text-decoration: none;
   background-color: #fff;
   color: black;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
 }
 
 h3 {
@@ -33,21 +63,14 @@ h3 {
   font: bold 25px Verdana;
 }
 
-h4 {
+.mid-head {
   display: block;
   text-align: left;
   margin-top: 2em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
 }
 
-.work-p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-}
-.work-pa {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 24px;
-}
 .stam-label {
   color: rgb(0, 255, 128);
   margin-left: 150px;
@@ -83,4 +106,43 @@ h1 {
   font-weight: bold;
   text-align: left;
   padding: 15px;
+  font-size: 35px;
+}
+
+.container2 {
+  max-width: 510px;
+  min-width: 424px;
+  margin: 50px auto 0px;
+}
+.container2 img {
+  display: block;
+  margin-left: 600px;
+  margin-right: auto;
+  width: 60%;
+  margin-top: -400px;
+}
+.container3 {
+  max-width: 510px;
+  min-width: 424px;
+  margin: 50px auto 0px;
+}
+.container3 img {
+  display: block;
+  margin-left: 600px;
+  margin-right: auto;
+  width: 60%;
+  margin-top: -300px;
+}
+
+.container4 {
+  max-width: 510px;
+  min-width: 424px;
+  margin: 50px auto 0px;
+}
+.container4 img {
+  display: block;
+  margin-left: 600px;
+  margin-right: auto;
+  width: 60%;
+  margin-top: -200px;
 }
