@@ -2,9 +2,16 @@ a {
   font-size: xx-large;
   text-decoration: none;
   background-color: #fff;
-  color: black;
+  color: hsl(241, 100%, 15%);
 }
-
+h3 {
+  display: block;
+  color: #00d8cd;
+  text-align: center;
+  margin-top: 1em;
+  content: "This is the subtitle";
+  font: bold 25px Verdana;
+}
 svg text {
   font-family: "Poppins", sans-serif;
   letter-spacing: 10px;
