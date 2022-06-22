@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/elad-resume",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
